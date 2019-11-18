@@ -5,7 +5,7 @@ eureka:
 
 spring:
   application:
-    name: product-service
+    name: api-gateway
   #指定从哪个配置中心读取
   cloud:
     config:
@@ -16,5 +16,3 @@ spring:
       profile: test
       #建议用lable去区分环境，默认是lable是master分支
       #label: master
-
-
